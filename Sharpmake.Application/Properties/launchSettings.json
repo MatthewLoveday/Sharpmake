@@ -121,6 +121,11 @@
             "commandLineArgs": "/sources(@\u0027SimpleExeLibDependency.sharpmake.cs\u0027)",
             "workingDirectory": "$(ProjectDir)\\..\\samples\\SimpleExeLibDependency"
         },
+        "Sample (ModuleExeLibDependency)": {
+            "commandName": "Project",
+            "commandLineArgs": "/sources(@\u0027ModuleExeLibDependency.sharpmake.cs\u0027)",
+            "workingDirectory": "$(ProjectDir)\\..\\samples\\ModuleExeLibDependency"
+        },
         "Sample (vcpkg)": {
             "commandName": "Project",
             "commandLineArgs": "/sources(@\u0027main.sharpmake.cs\u0027)",

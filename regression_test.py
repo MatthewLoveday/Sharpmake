@@ -155,6 +155,7 @@ def launch_tests():
             Test("PackageReferences", "PackageReferences.sharpmake.cs"),
             #Test("QTFileCustomBuild", "QTFileCustomBuild.sharpmake.cs"), # commented out since output has discrepancies between net472 and net5.0
             Test("SimpleExeLibDependency", "SimpleExeLibDependency.sharpmake.cs"),
+            Test("ModuleExeLibDependency", "ModuleExeLibDependency.sharpmake.cs"),
             Test("NetCore\\DotNetOSMultiFrameworksHelloWorld", "HelloWorld.sharpmake.cs"),
         ]
 

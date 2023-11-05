@@ -44,6 +44,8 @@ if not "%ERRORLEVEL_BACKUP%" == "0" goto error
 ::if not "%ERRORLEVEL_BACKUP%" == "0" goto error
 call :UpdateRef samples SimpleExeLibDependency      SimpleExeLibDependency.sharpmake.cs        reference         SimpleExeLibDependency
 if not "%ERRORLEVEL_BACKUP%" == "0" goto error
+call :UpdateRef samples ModuleExeLibDependency      ModuleExeLibDependency.sharpmake.cs        reference         ModuleExeLibDependency
+if not "%ERRORLEVEL_BACKUP%" == "0" goto error
 
 call :UpdateRef samples NetCore\DotNetCoreFrameworkHelloWorld    HelloWorld.sharpmake.cs       reference         NetCore\DotNetCoreFrameworkHelloWorld
 if not "%ERRORLEVEL_BACKUP%" == "0" goto error
