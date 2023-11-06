@@ -30,6 +30,7 @@ namespace ModuleExeLibDependency
 
             conf.Options.Add(Options.Vc.Linker.TreatLinkerWarningAsErrors.Enable);
             conf.Options.Add(Options.Vc.Compiler.CppLanguageStandard.CPP20);
+            conf.Options.Add(Options.Vc.General.PlatformToolset.v142);
 
             conf.Defines.Add("_HAS_EXCEPTIONS=0");
 
